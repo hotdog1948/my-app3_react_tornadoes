@@ -16,7 +16,7 @@ class Player extends Component {
 			return <div>Sorry, not in the roster</div>
 		}
 		
-    	return (<div>Player no. {this.state.player.name}, {this.state.player.position}</div>)
+    	return (<div>Player no. {this.state.player.number} - {this.state.player.name}, {this.state.player.position}</div>)
 	}
 };
 
